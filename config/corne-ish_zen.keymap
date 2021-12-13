@@ -5,8 +5,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define QWERTY 0
-#define NUM    1
-#define SYM    2
+#define NUM 1
+#define SYM 2
 
 / {
   keymap {
@@ -25,9 +25,9 @@
     num_layer {
       label = "NUMBER";
       bindings = <
-        &none &kp N1 &kp N2 &kp N3     &kp N4       &kp N5        &kp N6    &kp N7    &kp N8    &kp N9 &kp N0 &none
-        &none &none  &none  &kp K_MUTE &kp K_VOL_DN &kp K_VOL_UP  &kp LEFT  &kp DOWN  &kp UP    &RIGHT &none  &none
-        &none &none  &none  &kp K_PP   &kp C_BRI_DN &kp C_BRI_UP  &none     &none     &none     &none  &none  &none
+        &none &kp N1 &kp N2 &kp N3     &kp N4       &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0 &none
+        &none &none  &none  &kp K_MUTE &kp K_VOL_DN &kp K_VOL_UP  &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &none  &none
+        &none &none  &none  &kp K_PP   &kp C_BRI_DN &kp C_BRI_UP  &none     &none     &none     &none     &none  &none
                             &none      &none        &none         &none     &none     &none
       >;
     };
